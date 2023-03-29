@@ -3,6 +3,11 @@ twint tutorial: https://medium.com/@kevctae/twitter-scraping-without-using-twitt
 pymongo turotial: https://pymongo.readthedocs.io/en/stable/tutorial.html
 '''
 
+'''
+TODO: figure out why does the number of tweets scraped not equal to the limit
+TODO: figure out how to avoid duplicate tweets
+'''
+
 import twint
 import pandas as pd
 from pymongo import MongoClient
